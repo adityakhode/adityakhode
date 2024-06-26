@@ -1,7 +1,6 @@
 <h1 align="Left">Hi 👋, I'm Aditya Khode</h1>
 <h3 align="Left">A passionate Python developer from India</h3>
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=adityakhode&label=Profile%20views&color=0e75b6&style=flat" alt="adityakhode" /> </p>
+<img align="Right" alt="Coding" width="550" height="300" src="https://cdn.dribbble.com/users/416805/screenshots/3325107/media/a8fdd983870404993cc71642a1aba4b5.png">
 
 - 🌱 I’m currently learning **Machine Learning & AI**
 
