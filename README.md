@@ -1,8 +1,5 @@
-<h1 align="Left">Hi 👋, I'm Aditya Khode</h1>
-<h3 align="Left">A passionate Python developer</h3>
-<img align="Right" alt="Coding" width="550" height="300" src="https://cdn.dribbble.com/users/416805/screenshots/3325107/media/a8fdd983870404993cc71642a1aba4b5.png">
-
-- 🌱 I’m currently learning **Machine Learning & AI**
+# Hi 👋, I'm Aditya Khode</h1>
+- I work mostly in python Frontend(PyQt), Backend and Sql. Seeking oppourtinity to learn Machine Learning. Also familier with Basic C++ and Basic java.
 
 - 👨‍💻 All of my projects are available at [github.com/adityakhode/](github.com/adityakhode/)
 
@@ -21,4 +18,3 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=adityakhode&show_icons=true&locale=en&layout=compact" alt="adityakhode" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=adityakhode&show_icons=true&locale=en" alt="adityakhode" /></p>
-
