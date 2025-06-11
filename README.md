@@ -2,7 +2,6 @@
 
 Welcome to my GitHub profile! I'm a passionate software developer and robotics enthusiast. My journey into the world of technology has been driven by my deep interest in creating software solutions and building innovative robotics projects. Feel free to explore my repositories to see some of my projects!
 
-![Profile Image](https://avatars.githubusercontent.com/u/XXXXXXXX?s=400)  <!-- Add your profile image URL -->
 
 ---
 
@@ -15,7 +14,7 @@ I enjoy exploring new technologies, developing automation systems, and contribut
 - 🔭 I’m currently working on building robotics solutions
 - 🌱 I’m learning more about **AI**, **Robotics**, and **Computer Vision**
 - 👯 I’m looking to collaborate on open-source **Robotics** and **Software Development** projects
-- 📫 How to reach me: **adityakhode@domain.com**
+- 📫 How to reach me: **khodeaditya7@gmail.com**
 - ⚡ Fun fact: I love building robots that can perform tasks autonomously!
 
 ---
@@ -24,14 +23,14 @@ I enjoy exploring new technologies, developing automation systems, and contribut
 
 Here are some of the technologies and tools I use regularly:
 
-- **Programming Languages**: Python, C++, JavaScript
-- **Frameworks**: ROS (Robot Operating System), Django, React
-- **Tools**: Git, Docker, Kubernetes, VSCode
-- **Databases**: MySQL, MongoDB
-- **Cloud Services**: AWS, GCP
+- **Programming Languages**: Python, C++.
+- **Frameworks**: ROS (Robot Operating System), PySide6 QT, Restful API's
+- **Tools**: Git, Docker, VSCode, Pycharm
+- **Databases**: MySQL, dyanamodb
+- **Cloud Services**: AWS
 
 ---
-
+<!--
 ## 📂 Projects
 
 Here are some of the projects I've worked on. You can find the complete list of projects in my [repositories](https://github.com/adityakhode).
@@ -75,7 +74,7 @@ Thanks for visiting my profile!
 ---
 
 # 💥 Featured Repositories
-
-<!-- Add a list of repositories you'd like to highlight here -->
+-->
+<!-- Add a list of repositories you'd like to highlight here 
 [Repository 1](https://github.com/adityakhode/repo1) - Short description of repo 1
-[Repository 2](https://github.com/adityakhode/repo2) - Short description of repo 2
+[Repository 2](https://github.com/adityakhode/repo2) - Short description of repo 2 -->
