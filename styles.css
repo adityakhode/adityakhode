@@ -11,6 +11,7 @@ nav {
     background: url('assets/nav-img.PNG') no-repeat center center;
     background-size: 100% 100%; /* Ensures full width and height scaling */
     margin-bottom: 40px;
+    height: 30px; 
     position: fixed;
     top: 0;
     left: 0;
@@ -68,7 +69,7 @@ nav ul li a:hover {
 
 /* Section Reveal Animation */
 section {
-  padding: 100px 0 60px; /* Top padding to avoid navbar overlap */
+  padding: 20px 0 0px; /* Top padding to avoid navbar overlap */
   display: flex;
   justify-content: center;
   align-items: center;
