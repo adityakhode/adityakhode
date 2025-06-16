@@ -1,56 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Tan+Mon+Cherry&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Tan+Mon+Cherry&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="#landing">ABOUT</a></li>
-            <li><a href="#education">EDUCATION & EXPERIENCE</a></li>
-            <li><a href="#skills">SKILLS & LANGUAGE</a></li>
-            <li><a href="#interest">INTEREST</a></li>
-        </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li><a href="#landing">ABOUT</a></li>
+      <li><a href="#education">EDUCATION & EXPERIENCE</a></li>
+      <li><a href="#skills">SKILLS & LANGUAGE</a></li>
+      <li><a href="#interest">INTEREST</a></li>
+    </ul>
+  </nav>
 
-    <section id="landing">
-        <div class="image-container">
-            <img src="assets/background-img.svg" alt="Landing Poster">
-            <img class="overlay-name" src="assets/name.png" alt="Name Overlay">
-        </div>
-    </section>
+  <section id="landing" class="reveal">
+    <div class="image-container">
+      <img src="assets/background-img.svg" />
+      <img class="overlay-name" src="assets/name.png" alt="Name Overlay" />
+    </div>
+  </section>
 
-    <section id="about">
-        <div class="image-container">
-            <img src="assets/about.svg" alt="About Poster">
-            <a href="assets/about.svg" download class="download-button">
-                <img src="assets/Download-Button.svg" alt="Download Button">
-            </a>
-        </div>
-    </section>
+  <section id="about" class="reveal">
+    <div class="image-container">
+      <img src="assets/about.png" alt="About Poster" />
+      <a href="assets/about.png" download class="download-button">
+        <img src="assets/Download-Button.svg" alt="Download Button" />
+      </a>
+    </div>
+  </section>
 
-    <section id="education">
-        <div class="image-container">
-            <img src="assets/education.png" alt="Education Poster">
-        </div>
-    </section>
+  <section id="education" class="reveal">
+    <div class="image-container">
+      <img src="assets/education.png" alt="Education Poster" />
+    </div>
+  </section>
 
-    <section id="experience1">
-        <div class="image-container">
-            <img src="assets/workExp1.png" alt="Work Experience 1">
-        </div>
-    </section>
+  <section id="experience" class="reveal">
+    <div class="image-container experience-block">
+      <img src="assets/workExp1.png" alt="Work Experience 1" />
+      <img src="assets/workExp2.png" alt="Work Experience 2" />
+    </div>
+  </section>
 
-    <section id="experience2">
-        <div class="image-container">
-            <img src="assets/workExp2.png" alt="Work Experience 2">
-        </div>
-    </section>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
