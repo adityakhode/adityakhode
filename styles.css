@@ -1,92 +1,75 @@
-
+/* Base Styles */
 body {
-    font-family: 'Tan Mon Cherry';
+    font-family: 'Tan Mon Cherry', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('assets/background-img.png') no-repeat center center fixed;
-    background-size: cover;
     background-color: #000000;
     overflow-x: hidden;
 }
 
+/* Navbar */
 nav {
     position: relative;
     z-index: 1;
+    background: url('assets/nav-img.PNG') no-repeat center center;
+    background-size: cover;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     display: flex;
-    justify-content: center; /* This centers the nav items */
-    align-items: center;
-    gap: 30px; /* Optional: adds space between items */
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-
-
 nav ul li a {
-    font-family: 'Tan Mon Cherry';
-    display: block;
     color: #fef7f2;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
-    font-size: 22px; 
+    font-size: 22px;
+    padding: 14px 16px;
 }
 
 nav ul li a:hover {
     background-color: #ffffff;
+    color: #000;
 }
 
-nav::before {
-    content: "";
-    background: url('assets/nav-img.PNG') no-repeat center center;
-    background-size: contain;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 1;
-    z-index: -1;  
-    background-size: 100% 100%; /* Ensures full scaling */
-}
-
-#posters {
+/* Section Styling */
+section {
+    padding: 40px 0;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 0px;
-    padding: 0px 0;
 }
 
-/*-----------------Poster 1 content -----------------------------*/
-.poster-wrapper1 {
+/* Image Container */
+.image-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
     position: relative;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    }
+}
 
-.poster1 {
-    width: 100vw;
-    height: 100dvh;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    object-fit: cover; /* Ensures the image fills the space without distortion */
-    margin: 0;
-    padding: 0;
-    position: relative;
-    top: -75px;
+/* Responsive Image */
+.image-container img {
+    width: 100%;
+    height: auto;
     display: block;
+    border-radius: 10px;
 }
+
+/* Overlay Name Animation */
 @keyframes baselineEnter {
     0% {
-        transform: translate(-50%, 50%) scale(0.8); /* starts lower */
+        transform: translate(-50%, 50%) scale(0.8);
         opacity: 0;
     }
     100% {
-        transform: translate(-50%, -50%) scale(1); /* ends centered */
+        transform: translate(-50%, -50%) scale(1);
         opacity: 1;
     }
 }
@@ -95,57 +78,59 @@ nav::before {
     position: absolute;
     top: 65%;
     left: 50%;
-    width: 100%;
+    transform: translate(-50%, -50%);
+    width: 80%;
     height: auto;
-    pointer-events: none;
     z-index: 2;
     opacity: 0;
     animation: baselineEnter 3s ease-out forwards;
 }
 
-/*-----------------Poster 2 content -----------------------------*/
-
-.poster-wrapper2 {
-    position: relative;
-    width: 100vw;
-    height: 100dvh;
-    overflow: hidden;
-    margin-top: -50px
-    }
-
-.poster2 {
-    width: 100vw;
-    height: 100vh;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    object-fit: cover; /* Ensures the image fills the space without distortion */
-    margin: 0;
-    padding: 0;
-    position: relative;
-    top: 0px;
-    display: block;
-}
-
-.overlay-button {
+/* Download Button */
+.download-button {
     position: absolute;
-    top: 90%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    width: 200px; /* Reduced size */
-    height: 30px;
-    pointer-events: auto;
-    z-index: 2;
-    opacity: 1;
-    background: none;
-    border: none;
+    bottom: 20px;
+    left: 20px;
+    width: 150px;
     cursor: pointer;
 }
 
+.download-button img {
+    width: 100%;
+    height: auto;
+}
 
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    nav ul li a {
+        font-size: 18px;
+        padding: 10px 12px;
+    }
 
-main {
-    text-align: center;
-    padding: 50px;
-    color: white;
-    position: relative;
-    z-index: 1;
+    .overlay-name {
+        top: 60%;
+        width: 90%;
+    }
+
+    .download-button {
+        width: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul li a {
+        font-size: 14px;
+        padding: 6px 8px;
+    }
+
+    .overlay-name {
+        top: 55%;
+        width: 80%;
+    }
+
+    .download-button {
+        width: 100px;
+        bottom: 10px;
+        left: 10px;
+    }
 }
