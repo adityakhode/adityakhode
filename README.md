@@ -1,5 +1,7 @@
 # Hi, I'm Aditya Khode! 👋
 
+## https://adityakhode.github.io/adityakhode/
+
 Welcome to my GitHub profile! I'm a passionate software developer and robotics enthusiast. My journey into the world of technology has been driven by my deep interest in creating software solutions and building innovative robotics projects. Feel free to explore my repositories to see some of my projects!
 
 
