@@ -4,9 +4,7 @@ CREATE DATABASE "CompanyDB" from "DBC"
 AS PERMANENT = 5000000,
     TEMPORARY = 1000000,
     SPOOL = 2000000,
-    FALLBACK,
-    AFTER JOURNAL,
-    BEFORE JOURNAL;
+    FALLBACK;
 
 -- Create Table
 CREATE TABLE CompanyDB.employees (
